@@ -76,9 +76,9 @@ class Color
 
 $color = new Color(200, 200, 200);
 $mixedColor = $color->mix(new Color(100, 100, 100));
-echo $mixedColor->getRed(); // 150
-echo $mixedColor->getGreen(); // 150
-echo $mixedColor->getBlue(); // 150
+$mixedColor->getRed(); // 150
+$mixedColor->getGreen(); // 150
+$mixedColor->getBlue(); // 150
 
 if (!$color->equals($mixedColor)) {
     echo 'Цвета не равні<br>';
